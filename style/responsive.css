@@ -1,0 +1,21 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Start  SEction Banner*/
+  .banner .banner-text h6 {
+    margin-bottom: 1rem;
+  }
+  .banner .banner-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .banner .banner-text p {
+    margin-bottom: 30px;
+  }
+  /* End  SEction Banner*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/*# sourceMappingURL=responsive.css.map */

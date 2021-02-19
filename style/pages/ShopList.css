@@ -1,0 +1,23 @@
+.breadcrub {
+  padding: 70px 0;
+  background-color: #f7f8fb;
+}
+
+.breadcrub .page-title h1 {
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 28px;
+}
+
+.breadcrub .breadcrumb {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrub .breadcrumb li {
+  font-size: 14px;
+}
+/*# sourceMappingURL=ShopList.css.map */

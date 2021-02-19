@@ -1,0 +1,292 @@
+
+$secondary-font : 'Poppins', sans-serif;
+$primary-font: 'Roboto', sans-serif;
+/* Start  SEction Banner*/
+.banner{
+    div{
+        img{
+            height: 650px;
+        }
+    }
+    .banner-text{
+        left: 20%;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        -moz-transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        z-index: 1;
+        h6{
+            font-family: $secondary-font;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+        h2{
+            font-family: $primary-font;
+            font-size: 70px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+        p{
+            margin-bottom: 30px;
+            font-family: $primary-font;
+        }
+    }
+}
+
+.bx-wrapper{
+    border: none;
+    box-shadow: none;
+    .bx-pager,
+    .bx-default-pager{
+        bottom: 14px;
+            .bx-pager-link{
+               background-color: #333;
+            }        
+    }
+}
+
+/* End  SEction Banner*/
+
+/* START SECTION SHIPPING INFO */
+.shipping-info{
+    padding: 50px 0;
+    .info-box{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin-left: -1px;
+        .icon-box{
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 0;
+            width: 36px;
+            .icoflat{
+                line-height: normal;
+                width: 100%;
+            }
+        }
+        .box-text{
+            overflow: hidden;
+            margin-top: 15px;
+            p{
+                font-size: 14px;
+                line-height: normal;
+                margin-top: -8px;
+                color: #687188;
+            }
+        }
+    }
+    .no-gutters {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+/* END SECTION SHIPPING INFO */
+
+
+/* START SECTION SHOP */
+.exclusive-products{
+    padding: 50px 0;
+}
+/* END SECTION SHOP */
+
+
+/* START SECTION BANNER SALE  */
+.sale-bammer{
+    padding: 50px 0;
+    .single_banner{
+        position: relative;
+        overflow: hidden;
+        img{
+            transition: all 0.3s ease-in-out;
+            width: 100%;
+            &:hover{
+                -moz-transform: scale(1.06);
+                -webkit-transform: scale(1.06);
+                transform: scale(1.06);
+            }
+        }
+        &:hover{
+            img{
+                -moz-transform: scale(1.06);
+                -webkit-transform: scale(1.06);
+                transform: scale(1.06);
+            }
+        }
+        .sale-info-one{
+            position: absolute;
+            top: 15px;
+            padding: 15px;
+            left: 15px;
+            z-index: 9;
+            h5{
+                font-weight: 500;
+            }
+            h3{
+                font-weight: bold;
+                font-size: 32px;
+            }
+        }
+        .sale-info-tow{
+            position: absolute;
+            top: 50%;
+            padding: 15px;
+            left: 35px;
+            -moz-transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            z-index: 9;
+            width: 40%;
+            h4{
+                font-weight: 500;
+            }
+            h2{
+                font-weight: bold;
+                font-size: 32px;
+            }
+        }
+
+    }
+}
+/* END SECTION BANNER SALE */
+
+
+/*START TRENDING ITEMS*/
+.trending-items{
+    padding: 50px 0;
+    position: relative;
+    .owl-theme{
+        .owl-nav,
+        .owl-dots {
+            display: none;
+        }
+    }
+    .navmarg{
+        position: relative;
+        .customPrevBtn,
+        .customNextBtn{
+            position: absolute;
+            font-size: 26px;
+            top: -90px;
+            cursor: pointer;
+        }
+        .customPrevBtn{
+            right: 0;
+        }
+    }
+
+}
+/* END TRENDING ITEMS */
+
+
+
+/* START SECTION INSTAGRAM IMAGE */
+.instgram-img{
+    overflow: hidden;
+    padding: 50px 0;
+    .follow_box{
+        position: absolute;
+        top: 50%;
+        z-index: 9;
+        text-align: center;
+        right: 0;
+        left: 0;
+        max-width: 400px;
+        background-color: rgba(255,255,255,01);
+        margin: 0 auto;
+        -moz-transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        padding: 25px;
+        border-radius: 80px;
+        i{
+            position: absolute;
+            font-size: 80px;
+            left: 0;
+            right: 0;
+            z-index: -1;
+            opacity: 0.1;
+            top: 50%;
+            -moz-transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        h3{
+            font-weight: 600;
+        }
+        span{
+            font-family: $secondary-font;
+            color: #000000b0;
+        }
+        }
+    .owl-item{
+        .item{
+            a{
+                position: relative;
+                display: block;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    top: 0;
+                    opacity: 0;
+                    background-color: rgba(0,0,0,0.4);
+                    z-index: 1;
+                    display: block;
+                    transition: all 0.5s ease-in-out;
+                }
+                img{
+                    transition: all 0.5s ease-in-out;
+                }
+                &:hover{
+                    &::before{
+                        opacity: 1;
+                        -moz-transform: scale(1.1);
+                        -webkit-transform: scale(1.1);
+                        transform: scale(1.1);
+                    }
+                    img{
+                        -moz-transform: scale(1.1);
+                        -webkit-transform: scale(1.1);
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+/* END SECTION INSTAGRAM IMAGE*/
+
+/*START SECTION CLIENT LOGO */
+.clint-logo{
+    padding: 50px 0 100px 0;
+    .owl-carousel{
+        .item{
+            img{
+                opacity: 0.6;
+                width: 163px;
+                margin: 0 auto;
+                transition: all 0.5s ease-in-out;
+
+            }
+            &:hover{
+                img{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+/* END SECTION CLIENT LOGO */

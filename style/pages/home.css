@@ -1,0 +1,295 @@
+/* Start  SEction Banner*/
+.banner div img {
+  height: 650px;
+}
+
+.banner .banner-text {
+  left: 20%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  z-index: 1;
+}
+
+.banner .banner-text h6 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.banner .banner-text h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.banner .banner-text p {
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.bx-wrapper {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-default-pager {
+  bottom: 14px;
+}
+
+.bx-wrapper .bx-pager .bx-pager-link,
+.bx-wrapper .bx-default-pager .bx-pager-link {
+  background-color: #333;
+}
+
+/* End  SEction Banner*/
+/* START SECTION SHIPPING INFO */
+.shipping-info {
+  padding: 50px 0;
+}
+
+.shipping-info .info-box {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-left: -1px;
+}
+
+.shipping-info .info-box .icon-box {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 0;
+  width: 36px;
+}
+
+.shipping-info .info-box .icon-box .icoflat {
+  line-height: normal;
+  width: 100%;
+}
+
+.shipping-info .info-box .box-text {
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.shipping-info .info-box .box-text p {
+  font-size: 14px;
+  line-height: normal;
+  margin-top: -8px;
+  color: #687188;
+}
+
+.shipping-info .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* END SECTION SHIPPING INFO */
+/* START SECTION SHOP */
+.exclusive-products {
+  padding: 50px 0;
+}
+
+/* END SECTION SHOP */
+/* START SECTION BANNER SALE  */
+.sale-bammer {
+  padding: 50px 0;
+}
+
+.sale-bammer .single_banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.sale-bammer .single_banner img {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.sale-bammer .single_banner img:hover {
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+}
+
+.sale-bammer .single_banner:hover img {
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+}
+
+.sale-bammer .single_banner .sale-info-one {
+  position: absolute;
+  top: 15px;
+  padding: 15px;
+  left: 15px;
+  z-index: 9;
+}
+
+.sale-bammer .single_banner .sale-info-one h5 {
+  font-weight: 500;
+}
+
+.sale-bammer .single_banner .sale-info-one h3 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.sale-bammer .single_banner .sale-info-tow {
+  position: absolute;
+  top: 50%;
+  padding: 15px;
+  left: 35px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 9;
+  width: 40%;
+}
+
+.sale-bammer .single_banner .sale-info-tow h4 {
+  font-weight: 500;
+}
+
+.sale-bammer .single_banner .sale-info-tow h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+/* END SECTION BANNER SALE */
+/*START TRENDING ITEMS*/
+.trending-items {
+  padding: 50px 0;
+  position: relative;
+}
+
+.trending-items .owl-theme .owl-nav,
+.trending-items .owl-theme .owl-dots {
+  display: none;
+}
+
+.trending-items .navmarg {
+  position: relative;
+}
+
+.trending-items .navmarg .customPrevBtn,
+.trending-items .navmarg .customNextBtn {
+  position: absolute;
+  font-size: 26px;
+  top: -90px;
+  cursor: pointer;
+}
+
+.trending-items .navmarg .customPrevBtn {
+  right: 0;
+}
+
+/* END TRENDING ITEMS */
+/* START SECTION INSTAGRAM IMAGE */
+.instgram-img {
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.instgram-img .follow_box {
+  position: absolute;
+  top: 50%;
+  z-index: 9;
+  text-align: center;
+  right: 0;
+  left: 0;
+  max-width: 400px;
+  background-color: white;
+  margin: 0 auto;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  padding: 25px;
+  border-radius: 80px;
+}
+
+.instgram-img .follow_box i {
+  position: absolute;
+  font-size: 80px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.1;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.instgram-img .follow_box h3 {
+  font-weight: 600;
+}
+
+.instgram-img .follow_box span {
+  font-family: "Poppins", sans-serif;
+  color: #000000b0;
+}
+
+.instgram-img .owl-item .item a {
+  position: relative;
+  display: block;
+}
+
+.instgram-img .owl-item .item a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  display: block;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.instgram-img .owl-item .item a img {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.instgram-img .owl-item .item a:hover::before {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.instgram-img .owl-item .item a:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* END SECTION INSTAGRAM IMAGE*/
+/*START SECTION CLIENT LOGO */
+.clint-logo {
+  padding: 50px 0 100px 0;
+}
+
+.clint-logo .owl-carousel .item img {
+  opacity: 0.6;
+  width: 163px;
+  margin: 0 auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.clint-logo .owl-carousel .item:hover img {
+  opacity: 1;
+}
+
+/* END SECTION CLIENT LOGO */
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,540 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+       /* Strat top nav */
+   .top-nav{
+    .nav-pages{
+        justify-content: center;
+    }
+ .nav-info{
+     ul{
+         justify-content: center;
+         padding: 0;
+         .nav-item{
+             margin-right: 10px;
+             .nav-link{
+                 padding: 0;
+                 i{
+                     margin: 3px;
+                 }
+             }
+         }
+ 
+     }
+ }
+ }
+ /* End top nav */ 
+ /*navbar*/
+.navbar{
+    .navbar-toggler{
+        position: absolute;
+        right: 5%;
+        &:focus{
+            outline: none;
+        }
+    }
+    .navbar-collapse{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        z-index: 999;
+        width: 90%;
+        margin: 0 auto;
+        overflow: auto;
+        box-shadow: 0px 5px 10px #0000001a;
+        .navbar-nav{
+            background-color: #fff;
+            box-shadow: 0px 5px 10px #0000001a;
+        }
+
+    }
+    .nav-mob{
+        display: block;
+        margin-right: 80px;
+        .costomli{
+            display: inline;
+            padding: 10px;
+            a{
+                display: inline;
+            }
+            &::after{
+                display: none;
+            }
+        }
+
+    }
+}
+/*navbar*/
+/* Start  SEction Banner*/
+.banner{
+    div{
+        img{
+            height: 400px;
+        }
+    }
+    
+    .banner-text{
+        left: 10%;
+        h6{
+            font-size: 13px;
+        }
+        h2{
+            font-size: 24px;  
+        }
+        p{
+            width: 50%;
+        }
+    }
+    .costom{
+        transform: translateY(76%);
+    }
+}
+/* End  SEction Banner*/
+/* START SECTION SHIPPING INFO */
+.shipping-info{
+    .info-box{
+        margin-bottom: -1px;
+        padding: 10px;
+    }
+}
+/* END SECTION SHIPPING INFO */
+/* START SECTION SHOP */
+
+.exclusive-products,
+.trending-items{
+    .heading-prduuct{
+        h1{
+            font-size: 28px;
+        }
+    }
+    .product_box{
+        .product_info{
+            .add-to-cart{
+                .btn{
+                    padding: 10px 12px;
+                }
+            }
+        }
+    }
+}
+/* END SECTION SHOP */
+/* START SECTION BANNER SALE  */
+.sale-bammer{
+    .single_banner{
+        margin-bottom: 30px;
+    }
+}
+/* END SECTION BANNER SALE */
+/* START SECTION INSTAGRAM IMAGE */
+.instgram-img{
+    .follow_box{
+        -moz-transform: translateY(25%);
+        -webkit-transform: translateY(25%);
+        transform: translateY(25%);
+        max-width: 310px;
+        padding: 15px;
+        i{
+            font-size: 70px;
+        }
+        h3{
+            font-size: 24px;
+        }
+    }
+}
+/* END SECTION INSTAGRAM IMAGE*/
+/* Start Footer */
+footer{
+    .footer-bottom{
+        .footer-copy{
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+        }
+        .footer_payment{
+            justify-content: center;
+        }
+    }
+}
+/* End Footer */
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   /* Strat top nav */
+   .top-nav{
+       .nav-pages{
+           justify-content: center;
+       }
+    .nav-info{
+        ul{
+            justify-content: center;
+            padding: 0;
+            .nav-item{
+                margin-right: 10px;
+                .nav-link{
+                    padding: 0;
+                    i{
+                        margin: 3px;
+                    }
+                }
+            }
+    
+        }
+    }
+    }
+    /* End top nav */ 
+/*navbar*/
+.navbar{
+    .navbar-toggler{
+        position: absolute;
+        right: 5%;
+        &:focus{
+            outline: none;
+        }
+    }
+    .navbar-collapse{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        z-index: 999;
+        width: 90%;
+        margin: 0 auto;
+        overflow: auto;
+        box-shadow: 0px 5px 10px #0000001a;
+        .navbar-nav{
+            background-color: #fff;
+            box-shadow: 0px 5px 10px #0000001a;
+        }
+    }
+    .nav-mob{
+        display: block;
+        margin-right: 30px;
+        .costomli{
+            display: inline;
+            padding: 10px;
+            a{
+                display: inline;
+            }
+        }
+    }
+}
+/*navbar*/
+/* Start  SEction Banner*/
+.banner{
+    div{
+        img{
+            height: 400px;
+        }
+    }
+    
+    .banner-text{
+        left: 10%;
+        h6{
+            font-size: 13px;
+        }
+        h2{
+            font-size: 24px;  
+        }
+        p{
+            width: 50%;
+        }
+    }
+    .costom{
+        transform: translateY(76%);
+    }
+}
+/* End  SEction Banner*/
+/* START SECTION SHIPPING INFO */
+.shipping-info{
+    .info-box{
+        margin-bottom: -1px;
+    }
+}
+/* END SECTION SHIPPING INFO */
+/* START SECTION SHOP */
+
+.exclusive-products,
+.trending-items{
+    .heading-prduuct{
+        h1{
+            font-size: 28px;
+        }
+    }
+    .product_box{
+        .product_info{
+            .add-to-cart{
+                .btn{
+                    padding: 10px 12px;
+                }
+            }
+        }
+    }
+}
+/* END SECTION SHOP */
+/* START SECTION BANNER SALE  */
+.sale-bammer{
+    .single_banner{
+        margin-bottom: 30px;
+    }
+}
+/* END SECTION BANNER SALE */
+/* Start Footer */
+footer{
+    .footer-bottom{
+        .footer-copy{
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+        }
+        .footer_payment{
+            justify-content: center;
+        }
+    }
+}
+/* End Footer */
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /* Strat top nav */
+.top-nav{
+.nav-info{
+    ul{
+        .nav-item{
+            margin-right: 5px;
+            .nav-link{
+                padding: 0;
+                i{
+                    margin: 3px;
+                }
+            }
+        }
+
+    }
+}
+}
+/* End top nav */ 
+/*navbar*/
+.navbar{
+    .navbar-toggler{
+        position: absolute;
+        right: 5%;
+        &:focus{
+            outline: none;
+        }
+    }
+    .navbar-collapse{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        z-index: 999;
+        width: 90%;
+        margin: 0 auto;
+        overflow: auto;
+        box-shadow: 0px 5px 10px #0000001a;
+        .navbar-nav{
+            background-color: #fff;
+            box-shadow: 0px 5px 10px #0000001a;
+        }
+    }
+    .nav-mob{
+        display: block;
+        margin-right: 80px;
+        .costomli{
+            display: inline;
+            padding: 10px;
+            a{
+                display: inline;
+            }
+        }
+    }
+}
+/*navbar*/
+/* Start  SEction Banner*/
+.banner{
+    div{
+        img{
+            height: 450px;
+        }
+    }
+    
+    .banner-text{
+        left: 10%;
+        h6{
+            font-size: 14px;
+        }
+        h2{
+            font-size: 40px;  
+        }
+    }
+    .costom{
+        transform: translateY(50%);
+    }
+}
+/* End  SEction Banner*/
+/* START SECTION SHIPPING INFO */
+.shipping-info{
+    .info-box{
+        padding: 10px;
+        margin-left: -1px;
+        margin-bottom: -1px;
+        .icon-box{
+            margin-left: 15px;
+        }
+    }
+}
+/* END SECTION SHIPPING INFO */
+
+/* START SECTION SHOP */
+.exclusive-products,
+.trending-items{
+    .heading-prduuct{
+        h1{
+            font-size: 30px;
+        }
+    }
+    .product_box{
+        .product_info{
+            .add-to-cart{
+                .btn{
+                    padding: 10px 12px;
+                }
+            }
+        }
+    }
+}
+/* END SECTION SHOP */
+
+/* START SECTION BANNER SALE  */
+.sale-bammer{
+    .single_banner{
+
+        img{
+            transition: all 0.3s ease-in-out;
+            width: 100%;
+        }
+        .sale-info-one{
+            top: 5px;
+            left: 5px;
+            h5{
+                font-size: 18px;
+            }
+            h3{
+                
+                font-size: 22px;
+            }
+        }
+        .sale-info-tow{
+            left: 15px;
+            h4{
+                font-size: 18px;
+            }
+            h2{
+                font-size: 22px;
+            }
+        }
+
+    }
+}
+/* END SECTION BANNER SALE */
+
+/* START SECTION INSTAGRAM IMAGE */
+.instgram-img{
+    .follow_box{
+            -moz-transform: translateY(25%);
+            -webkit-transform: translateY(25%);
+            transform: translateY(25%);
+    }
+}
+/* END SECTION INSTAGRAM IMAGE*/
+/* Start Footer */
+footer{
+    .footer-bottom{
+        .footer-copy{
+            font-size: 12px;
+        }
+    }
+}
+/* End Footer */
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+/* Start  SEction Banner*/
+.banner{
+    div{
+        img{
+            height: 450px;
+        }
+    }
+    
+    .banner-text{
+        left: 10%;
+        h6{
+            margin-bottom: 1rem;
+        }
+        h2{
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 30px;
+        }
+    }
+    .costom{
+        transform: translateY(76%);
+    }
+}
+/* End  SEction Banner*/
+
+
+/* START SECTION SHIPPING INFO */
+.shipping-info{
+    padding: 50px 0;
+    .info-box{
+        padding: 15px;
+        .box-text{
+            overflow: hidden;
+            margin-top: 15px;
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}
+/* END SECTION SHIPPING INFO */
+
+/* START SECTION SHOP */
+.exclusive-products,
+.trending-items{
+    .product_box{
+        .product_info{
+            .add-to-cart{
+                .btn{
+                    padding: 10px 12px;
+                }
+            }
+        }
+    }
+}
+/* END SECTION SHOP */
+
+/* START SECTION INSTAGRAM IMAGE */
+.instgram-img{
+    .follow_box{
+            -moz-transform: translateY(25%);
+            -webkit-transform: translateY(25%);
+            transform: translateY(25%);
+    }
+}
+/* END SECTION INSTAGRAM IMAGE*/
+
+ }
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
