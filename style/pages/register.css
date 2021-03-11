@@ -1,1 +1,170 @@
-/* No CSS *//*# sourceMappingURL=register.css.map */
+.register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 50px 0;
+}
+
+.register .register_wrap {
+  -webkit-box-shadow: 0 0 10px #00000033;
+          box-shadow: 0 0 10px #00000033;
+}
+
+.register .register_wrap .padding_eight_all {
+  padding: 6%;
+}
+
+.register .register_wrap .padding_eight_all .heading_s1 {
+  margin-bottom: 20px;
+}
+
+.register .register_wrap .padding_eight_all form .form-group .form-control {
+  color: #000;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 50px;
+  padding: 8px 15px;
+}
+
+.register .register_wrap .padding_eight_all form .form-group button {
+  border-radius: .25rem;
+}
+
+.register .register_wrap .padding_eight_all form .register_footer {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.register .register_wrap .padding_eight_all form .register_footer .custome-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.register .register_wrap .padding_eight_all form .register_footer .custome-checkbox input[type="checkbox"]:checked + .form-check-label::before {
+  background-color: #FF324D;
+  border-color: #FF324D;
+}
+
+.register .register_wrap .padding_eight_all form .register_footer .custome-checkbox input[type="checkbox"]:checked + .form-check-label::after {
+  opacity: 1;
+}
+
+.register .register_wrap .padding_eight_all form .register_footer .custome-checkbox input[type="checkbox"] + .form-check-label::after {
+  content: "";
+  width: 11px;
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  opacity: 0;
+  height: 6px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  -webkit-transform: translateY(-65%) rotate(-45deg);
+  transform: translateY(-65%) rotate(-45deg);
+}
+
+.register .register_wrap .padding_eight_all form .register_footer .custome-checkbox .form-check-label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  vertical-align: middle;
+  color: #292b2c;
+}
+
+.register .register_wrap .padding_eight_all form .register_footer .custome-checkbox .form-check-label::before {
+  content: "";
+  border: 2px solid #ced4da;
+  height: 17px;
+  width: 17px;
+  margin: 0px 8px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.register .register_wrap .padding_eight_all form .register_footer .custome-checkbox .form-check-label span {
+  vertical-align: middle;
+}
+
+.register .register_wrap .padding_eight_all .different_login {
+  text-align: center;
+  position: relative;
+  margin: 20px 0;
+}
+
+.register .register_wrap .padding_eight_all .different_login::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid #ddd;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.register .register_wrap .padding_eight_all .different_login span {
+  background-color: #fff;
+  padding: 0 15px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.register .register_wrap .padding_eight_all .btn-login li {
+  margin: 0px 5px 0;
+  display: inline-block;
+  list-style: none;
+}
+
+.register .register_wrap .padding_eight_all .btn-login li a {
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  display: block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.register .register_wrap .padding_eight_all .btn-login li a i {
+  margin-right: 10px;
+  font-size: 14px;
+  margin-left: 0;
+  vertical-align: middle;
+}
+
+.register .register_wrap .padding_eight_all .btn-login li .btn-facebook {
+  background: #3b5998;
+  border-color: #3b5998;
+}
+
+.register .register_wrap .padding_eight_all .btn-login li .btn-google {
+  color: #fff;
+  background: #d33d2b;
+  border-color: #d33d2b;
+}
+
+.register .register_wrap .padding_eight_all .form-note {
+  margin-top: 20px;
+  color: #687188;
+}
+
+@media (max-width: 575.98px) {
+  .register .register_wrap .padding_eight_all .btn-login li {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=register.css.map */

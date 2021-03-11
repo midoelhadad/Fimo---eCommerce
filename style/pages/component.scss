@@ -7,6 +7,13 @@ $secondary-font : 'Poppins', sans-serif;
 h1, h2, h3, h4, h5, h6 {
     color: #292b2c;
     font-family: $primary-font;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+}
+ul{
+    margin: 0;
+    padding: 0;
 }
 a{
     color: #292b2c;
@@ -138,6 +145,12 @@ a{
                         color: $main-color;
                         transition: all 0.3s ease 0s;
                     }
+                    .dropdown{
+                        .dropdown-toggle{
+                            display: block;   
+                        }
+                        display: block;
+                    }
                 }
                 .nav-link{
                     vertical-align: middle;
@@ -158,6 +171,12 @@ a{
                     .show{
                         display: block;
                     }
+                    .dropdown{
+                        .dropdown-toggle{
+                            display: block;   
+                        }
+                        display: block;
+                    }
                 }
             }
             
@@ -172,6 +191,39 @@ a{
                     .show{
                         display: block;
                     }
+                    display: block;
+                }
+            }
+            .costom-hov{
+                .dropdown-menu{
+                    display: block;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: all 0.3s ease-in-out;
+                    margin-top: 20px;
+                    pointer-events: none;
+                    background-color: #fff;
+                    box-shadow: 0 13px 42px 11px #0000000d;
+                    top: 46px;
+                    border: none;
+                    .dropdown-item{
+                        padding: 8px 20px 8px 20px;
+                        color: #333;
+                        font-size: 14px;
+                        text-transform: capitalize;
+                        transition: all 0.3s ease 0s;
+                        &:hover{
+                            color: $main-color;
+                        }
+                    }
+                }
+                .show{
+                    display: block;
+                    opacity: 1;
+                    visibility: visible;
+                    margin-top: 0px;
+                    pointer-events: auto;
+                    
                 }
             }
         }
@@ -512,7 +564,7 @@ a{
                 }
             }
             .add-to-cart{
-                bottom: 0px;
+                bottom: 20px;
                 opacity: 1;
                 visibility: visible;
             }

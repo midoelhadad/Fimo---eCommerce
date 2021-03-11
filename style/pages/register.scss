@@ -1,0 +1,175 @@
+.register{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    padding: 50px 0;
+    .register_wrap {
+        box-shadow: 0 0 10px #00000033;
+        .padding_eight_all {
+            padding: 6%;
+            .heading_s1{
+                margin-bottom: 20px;
+            }
+            form{
+                .form-group{
+                    .form-control {
+                        color: #000;
+                        box-shadow: none;
+                        height: 50px;
+                        padding: 8px 15px;
+                    }
+                    button{
+                        border-radius: .25rem;
+                    }
+                }
+                .register_footer {
+                    margin-bottom: 20px;
+                    margin-top: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+                    .custome-checkbox{
+                        // .form-check-input{
+                            
+                        // }
+                        input[type="checkbox"]{
+                            display: none;
+                            &:checked {
+                                &+{
+                                    .form-check-label{
+                                        &::before{
+                                            background-color: #FF324D;
+                                            border-color: #FF324D;
+                                        }
+                                        &::after{
+                                            opacity: 1;
+                                        }
+                                    }
+                                }
+                            }
+                            &+{
+                                .form-check-label{
+                                    &::after{
+                                        content: "";
+                                        width: 11px;
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 3px;
+                                        opacity: 0;
+                                        height: 6px;
+                                        border-left: 2px solid #fff;
+                                        border-bottom: 2px solid #fff;
+                                        -moz-transform: translateY(-65%) rotate(-45deg);
+                                        -webkit-transform: translateY(-65%) rotate(
+                                    -45deg
+                                    );
+                                        transform: translateY(-65%) rotate(
+                                    -45deg
+                                    );
+                                    }
+                                }
+                            }
+                        }
+                        .form-check-label{
+                            position: relative;
+                            cursor: pointer;
+                            padding: 0;
+                            vertical-align: middle;
+                            color: #292b2c;
+                            &::before{
+                                content: "";
+                                border: 2px solid #ced4da;
+                                height: 17px;
+                                width: 17px;
+                                margin: 0px 8px 0 0;
+                                display: inline-block;
+                                vertical-align: middle;
+                            }
+                            span{
+                                vertical-align: middle;
+    
+                            }
+                        }
+                    }
+                }
+            }
+
+            .different_login{
+                text-align: center;
+                position: relative;
+                margin: 20px 0;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    right: 0;
+                    border-top: 1px solid #ddd;
+                    -moz-transform: translateY(-50%);
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                }
+                 span {
+                    background-color: #fff;
+                    padding: 0 15px;
+                    position: relative;
+                    text-transform: uppercase;
+                }
+            }
+            .btn-login{
+                li{
+                    margin: 0px 5px 0;
+                    display: inline-block;
+                    list-style: none;
+                    a{
+                        border-radius: 5px;
+                        padding: 10px 20px;
+                        color: #fff;
+                        display: block;
+                        margin-right: 10px;
+                        cursor: pointer;
+                       
+
+                        i{
+                            margin-right: 10px;
+                            font-size: 14px;
+                            margin-left: 0;
+                            vertical-align: middle;
+                        }
+                    }
+                    .btn-facebook {
+                        background: #3b5998;
+                        border-color: #3b5998;
+                    }
+                    .btn-google {
+                        color: #fff;
+                        background: #d33d2b;
+                        border-color: #d33d2b;
+                    }
+                }
+            }
+            .form-note{
+                margin-top: 20px;
+                color: #687188;
+            }
+        }           
+    }
+}
+
+
+@media (max-width: 575.98px) { 
+
+    .register {
+        .register_wrap {
+            .padding_eight_all{
+                .btn-login{
+                    li{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

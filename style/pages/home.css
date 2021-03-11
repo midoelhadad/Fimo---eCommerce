@@ -90,6 +90,10 @@
   color: #687188;
 }
 
+.shipping-info .info-box .box-text h6 {
+  margin-bottom: 10px;
+}
+
 .shipping-info .no-gutters {
   margin-right: 0;
   margin-left: 0;

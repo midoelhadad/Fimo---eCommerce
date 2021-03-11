@@ -3,6 +3,14 @@
 h1, h2, h3, h4, h5, h6 {
   color: #292b2c;
   font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -176,6 +184,14 @@ a:hover {
   transition: all 0.3s ease 0s;
 }
 
+.navbar .navbar-collapse .navbar-nav .nav-item:hover .dropdown {
+  display: block;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item:hover .dropdown .dropdown-toggle {
+  display: block;
+}
+
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   vertical-align: middle;
   color: #292b2c;
@@ -199,6 +215,14 @@ a:hover {
   display: block;
 }
 
+.navbar .navbar-collapse .navbar-nav .nav-item:hover .dropdown {
+  display: block;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item:hover .dropdown .dropdown-toggle {
+  display: block;
+}
+
 .navbar .navbar-collapse .navbar-nav .dropdown {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -207,6 +231,7 @@ a:hover {
 .navbar .navbar-collapse .navbar-nav .dropdown:hover {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  display: block;
 }
 
 .navbar .navbar-collapse .navbar-nav .dropdown:hover .dropdown-menu {
@@ -216,6 +241,42 @@ a:hover {
 
 .navbar .navbar-collapse .navbar-nav .dropdown:hover .show {
   display: block;
+}
+
+.navbar .navbar-collapse .navbar-nav .costom-hov .dropdown-menu {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+  pointer-events: none;
+  background-color: #fff;
+  -webkit-box-shadow: 0 13px 42px 11px #0000000d;
+          box-shadow: 0 13px 42px 11px #0000000d;
+  top: 46px;
+  border: none;
+}
+
+.navbar .navbar-collapse .navbar-nav .costom-hov .dropdown-menu .dropdown-item {
+  padding: 8px 20px 8px 20px;
+  color: #333;
+  font-size: 14px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.navbar .navbar-collapse .navbar-nav .costom-hov .dropdown-menu .dropdown-item:hover {
+  color: #FF324D;
+}
+
+.navbar .navbar-collapse .navbar-nav .costom-hov .show {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0px;
+  pointer-events: auto;
 }
 
 /* End NavBar */
@@ -577,7 +638,7 @@ a:hover {
 }
 
 .product_box:hover .add-to-cart {
-  bottom: 0px;
+  bottom: 20px;
   opacity: 1;
   visibility: visible;
 }
